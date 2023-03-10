@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+
+}
+
+body{
+    background-color: #23252C;
+}
+.intro{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-color: #1A1B21;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 317px;
+    height: 780px;
+    -webkit-box-shadow: 5px 7px 22px 9px rgba(0,0,0,0.2);
+    -moz-box-shadow: 5px 7px 22px 9px rgba(0,0,0,0.2);
+    box-shadow: 5px 7px 22px 9px rgba(0,0,0,0.2);
+    
+}
+.intro > h3{
+    margin-top: 20px;
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.intro > p{
+    margin-top: 2px;
+    color: #F3BF99;
+    font-weight: 400;
+    font-size: 12.8px;
+}
+
+.intro h6{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    font-weight: 400;
+    font-size: 10.24px;
+}
+
+.intro--buttons{
+    width:100%;
+    padding: 10px 35px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.intro--button1,.intro--button2{
+    display: flex;
+    width: 115px;
+    height: 34px;
+    align-items: center;
+    justify-content: center ; 
+    border-radius: 5px; 
+    /* color: black; */
+}
+.intro--button1{
+    background-color: white;
+}
+
+.intro--button2{
+    background-color: #5093E2;
+    color: white;
+}
+
+
+.intro--button1 > img ,.intro--button2 > img{
+    margin-right: 8px;
+}
+
+
+.intro--button1 > p,.intro--button2 > p{
+    font-weight: 400;
+    font-size: 14px;
+}
+
+
+.about_sec{
+    color: white;
+    padding: 36px;
+}
+
+.about_sec > h4{
+    font-weight: 700;
+    font-size: 16px;
+    
+}
+
+.about_sec > p{
+    padding: 5px 0px;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+}
+
+.about--about_part{
+    margin-bottom: 20px;
+}
+
+.Footer{
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 70px;
+    height: 64px;
+    width: 100%;
+    align-items: center;
+    background-color: #161619;
+}
+
+.Footer > img{
+    opacity: 0.4;
+}
+
