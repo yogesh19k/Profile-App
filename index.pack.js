@@ -565,7 +565,7 @@ function Intro() {
     return _react2.default.createElement(
         "header",
         { className: "intro" },
-        _react2.default.createElement("img", { src: "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", width: "317px" }),
+        _react2.default.createElement("img", { src: "../images/profile.jpg", width: "317px" }),
         _react2.default.createElement(
             "h3",
             null,
