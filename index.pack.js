@@ -509,7 +509,7 @@ function About() {
         _react2.default.createElement(
             "p",
             null,
-            "Food expert. Music scholar. Reader. Internet fanatic. Bacon buff. Entrepreneur. Travel geek. Pop culture ninja. Coffee fanatic."
+            "Full Stack Development. Machine Learning. Embedded Systems Programming. Internet of Things. Microcontrollers and Electronics"
         )
     );
 }
@@ -539,7 +539,11 @@ function Footer() {
         _react2.default.createElement("img", { src: "../images/twitter-logo.png", width: "25px" }),
         _react2.default.createElement("img", { src: "../images/facebook-logo.png", width: "25px" }),
         _react2.default.createElement("img", { src: "../images/instagram-logo.png", width: "25px" }),
-        _react2.default.createElement("img", { src: "../images/github-logo.png", width: "25px" })
+        _react2.default.createElement(
+            "a",
+            { href: "https://github.com/yogesh19k" },
+            _react2.default.createElement("img", { src: "../images/github-logo.png", width: "25px" })
+        )
     );
 }
 
@@ -577,31 +581,34 @@ function Intro() {
             "Fronted Developer"
         ),
         _react2.default.createElement(
-            "h6",
-            null,
-            "yogeshkumar.website"
-        ),
-        _react2.default.createElement(
             "div",
             { className: "intro--buttons" },
             _react2.default.createElement(
-                "button",
-                { className: "intro--button1" },
-                _react2.default.createElement("img", { src: "../images/Email-logo.png", width: "16px" }),
+                "a",
+                { href: "mailto: l.yogesh19k@gmail.com" },
                 _react2.default.createElement(
-                    "p",
-                    null,
-                    "Email"
+                    "button",
+                    { className: "intro--button1" },
+                    _react2.default.createElement("img", { src: "../images/Email-logo.png", width: "16px" }),
+                    _react2.default.createElement(
+                        "p",
+                        null,
+                        "Email"
+                    )
                 )
             ),
             _react2.default.createElement(
-                "button",
-                { className: "intro--button2" },
-                _react2.default.createElement("img", { src: "../images/linkedin-logo.png", width: "16px" }),
+                "a",
+                { href: "https://www.linkedin.com/in/l-yogesh-kumar-17b083bb/" },
                 _react2.default.createElement(
-                    "p",
-                    null,
-                    "LinkedIn"
+                    "button",
+                    { className: "intro--button2" },
+                    _react2.default.createElement("img", { src: "../images/linkedin-logo.png", width: "16px" }),
+                    _react2.default.createElement(
+                        "p",
+                        null,
+                        "LinkedIn"
+                    )
                 )
             )
         )

@@ -9,6 +9,10 @@
 body{
     background-color: #23252C;
 }
+
+a{
+    text-decoration:none
+}
 .intro{
     display: flex;
     flex-direction:column;
@@ -40,6 +44,7 @@ body{
     color: #F3BF99;
     font-weight: 400;
     font-size: 12.8px;
+    margin-bottom: 10px;
 }
 
 .intro h6{
@@ -121,7 +126,10 @@ body{
     background-color: #161619;
 }
 
-.Footer > img{
+.Footer > img ,.Footer >a> img{
     opacity: 0.4;
 }
 
+.Footer >a> img:hover{
+    opacity: 1;
+}
