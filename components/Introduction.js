@@ -3,7 +3,7 @@ import React from "react"
 export default function Intro(){
     return (
         <header className="intro">
-            <img src="../images/profile.jpg" width="317px"/>
+            <img src="../images/profile.png" width="317px"/>
             <h3>L Yogesh Kumar</h3>
             <p>Fronted Developer</p>
             {/* <h6>yogeshkumar.website</h6> */}
