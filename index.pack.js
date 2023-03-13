@@ -569,7 +569,7 @@ function Intro() {
     return _react2.default.createElement(
         "header",
         { className: "intro" },
-        _react2.default.createElement("img", { src: "../images/profile.jpg", width: "317px" }),
+        _react2.default.createElement("img", { src: "../images/profile.png", width: "317px" }),
         _react2.default.createElement(
             "h3",
             null,
